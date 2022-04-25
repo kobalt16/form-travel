@@ -1,0 +1,66 @@
+
+.form-discover {
+    display: flex;
+    margin-top: 100px;
+    width: 1185px;
+    height: 154px;
+    background-color: #fff;
+    justify-content: space-around;
+    box-shadow: 1px 15px 15px #cbc9c9;
+
+}
+form {
+    display: flex;
+    
+}
+.form-country {
+    margin-left: 45px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 240px;
+    height: 64px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-right: 60px;
+    color: #A79997;
+    font-size: 16px;
+}
+label {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+.text-input {
+    color: #FF715B;
+    font-family: 'Noto Serif';
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+}
+button {
+    width: 195px;
+    height: 64px;
+    margin: 45px;
+    margin-left: 0;
+    background-color: #FF715B;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+button:hover {
+    background-color: #fa9282;
+}
+
+
+::-webkit-calendar-picker-indicator {
+    background-image: url(/calender.svg);
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+
+}
